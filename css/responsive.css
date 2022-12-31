@@ -3,12 +3,35 @@
     .header-elements{
         display: flex;
         justify-content:space-evenly;
+        position: relative;
     }
     .bar,.shopping-icon{
         display: block;
     }
     .header-contant{
         display: none;
+        position:absolute;
+        top: 42px;
+        left: -150px;
+    }
+    .bar:hover ~ .header-contant>a{
+        margin-left: 45px;
+        margin-top: 8px;
+    }
+    .bar:hover ~ .header-contant{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        top: 42px;
+        left: -18px;
+        transition: 3s ;
+        background-color: aliceblue;
+        height: 250px;
+        width: 170px;
+    }
+    .bar:hover ~ .header-contant :nth-child(6){
+        visibility: hidden;
     }
     .slider-container{
         width: 400px;

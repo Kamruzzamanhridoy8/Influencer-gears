@@ -46,6 +46,10 @@ a{
     margin-right: 45px;
     font-size: 16px;
     font-weight: semi-bold;
+    transition: linear .3s;
+}
+.header-contant>a:hover{
+    color: #E02C6D;
 }
 
 /* ========================close header=================== */
@@ -260,4 +264,22 @@ a{
     font-size: 25px;
     margin: 10px;
     color: white;
+}
+.footer-icon>a>.fab{
+    transition: linear .5s;
+}
+.fa-facebook:hover{
+    color: #1876EF;
+}
+.fa-twitter:hover{
+    color: #1EA1F2;
+}
+.fa-whatsapp:hover{
+    color: #41C553;
+}
+.fa-instagram:hover{
+    color: #C105E9;
+}
+.fa-linkedin:hover{
+    color: #337DAF;
 }
