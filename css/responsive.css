@@ -1,0 +1,125 @@
+@media screen and (max-width: 456px) {
+
+    .header-elements{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .bar,.shopping-icon{
+        display: block;
+    }
+    .header-contant{
+        display: none;
+    }
+    .slider-container{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .slider-contant{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .slider-pic{
+        height: 280px;
+        width: 280px;
+        border: 2px solid rgb(124, 107, 2);
+        border-radius: 500px;
+        position: relative;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .slider-heading>h5{
+        margin-bottom: 80px;
+    }
+    .bg-layer{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(255, 226, 6);
+        border-radius: 500px;
+        position:absolute;
+        top: 40px;
+        left: 40px;
+    }
+    .slider-pic img{
+        height: 214px;
+        width: 240px;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+    .slider-heading>h1{
+        font-size: 25px;
+    }
+    .slider-heading>h5{
+        font-weight: semi-bold;
+        font-size: 14px;
+        height: 50px;
+        width: 300px;
+    }
+    .sponsers{
+        height: 200px;
+        width: 700px;
+    }
+    .sponser{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        grid-column-gap:40px;
+        grid-row-gap: 20px;
+    }
+
+
+    .product-container{
+        height: 100%;
+    }
+    .products{
+        height: 4660px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 318px;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+    }
+    .seemore{
+        text-align: end;
+        margin-top: 4170px;
+        margin-left: 180px;
+
+       
+    }
+    .future-products{
+        margin-bottom: 300px;
+    }
+    .future-product{
+        display: flex;
+        flex-direction: column;
+    }
+    .future-contant{
+        height: 180px;
+        width: 410px;
+        margin-top: 40px;
+    }
+    .future-pic>img{
+        height: 180px;
+        width: 304px;
+    }
+    .future-contant>h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .future-contant>p{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+    .future-contant>p{
+        margin-bottom: 50px;
+    }
+
+}
