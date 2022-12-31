@@ -34,9 +34,13 @@ a{
     height: 35px;
     width: 250px;
     border: none;
-    border-bottom: 1px solid rgba(106, 103, 103, 0.877);
+    border-bottom: 1px solid rgba(171, 166, 166, 0.877);
     border-top: none;
     background-color: rgba(255, 255, 255, 0.789);;
+}
+.login-contant>form>input:focus{
+    outline: none;
+    cursor: 10px;
 }
 .login-contant>form>h5{
     font-size: 1em;
@@ -49,13 +53,21 @@ a{
     color: rgba(123, 124, 124, 0.901);
     
 }
+.placeholder{
+    font-family: Poppins, fontawesome ;
+    font-size: 15px;
+    color: #5e5e5f;
+}
 .login-button{
-    padding: 8px 100px;
+    padding: 10px 100px;
     background:linear-gradient(to right,#FE0885 ,#FDD866);
     text-align: center;
     color: white;
-    margin-top: 25px;
+    margin-top: 15px;
     border-radius: 50px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
 }
 .signin-other>a>p{
     text-align: center;
@@ -87,4 +99,5 @@ a{
 .signup-using-mail>a>p{
     text-align: center;
     color: rgba(123, 124, 124, 0.901);
+    margin-top: -6px;
 }
